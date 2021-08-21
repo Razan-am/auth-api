@@ -7,8 +7,8 @@
 - https://auth-apiii.herokuapp.com/
 
 ### Author: Razan Alamleh
- - [test report](https://github.com/Razan-am/bearer-auth/runs/3340514443?check_suite_focus=true)
- - [front end](https://bearer-authh.herokuapp.com/status)
+ - [test report](https://github.com/Razan-am/auth-api/runs/3389321752?check_suite_focus=true)
+ - [front end](https://auth-apiii.herokuapp.com/status)
 
 ### Setup
 - .env requirements
@@ -34,8 +34,8 @@
   - Clone the repo to your local machine
   - in the terminal, `run npm i`
   - Create `.env` file with port name as the one in the `env samples` 
-  - Create database called `auth` 
-  - Seed the database for the lab7 model with post request 
+  - Create database called `lab8` 
+  - Seed the database for the user and foor and clothes models with post request 
   - send sign up post request with username and password  
   - send log in post request with user name and the password 
  
