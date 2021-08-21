@@ -31,6 +31,18 @@ app.use(express.urlencoded({ extended: true }));
 app.use(logger);
 
 // Routes
+app.get('/',(req,res)=>{
+  res.send('Every thing is working fine')
+});
+
+app.get('/status',(req,res)=>{
+  res.send({
+      domain:'https://bearer-authh.herokuapp.com/',
+      status:'running',
+      port:'3000',
+  })
+})
+
 app.use('/api/v1', v1Routes);
 app.use('/api/v2', v2Routes);
 app.use('/auth', authRoutes);
