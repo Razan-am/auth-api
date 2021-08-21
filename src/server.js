@@ -37,7 +37,7 @@ app.get('/',(req,res)=>{
 
 app.get('/status',(req,res)=>{
   res.send({
-      domain:'https://bearer-authh.herokuapp.com/',
+      domain:'https://auth-apiii.herokuapp.com/',
       status:'running',
       port:'3000',
   })
